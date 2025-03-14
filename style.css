@@ -1,0 +1,181 @@
+body{
+    background-color: #FAF3E0 !important;
+    color: #4A2C21;
+    padding-top: 70px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar.fixed-top {
+    background-color: #DED4BB !important; /* Defina a cor desejada */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+    z-index: 1000; /* Garante que a navbar fique sempre por cima do conteúdo */
+}
+
+
+.nav-link{
+    font-size: 20px !important;
+    padding-left: 10px !important;
+    color: #8a7a4e !important;
+}
+
+.navbar .nav-link:hover {
+    color: #D9A47F !important;
+}
+
+.home {
+    position: relative; 
+    width: 100vw;  
+    height: 100vh;  
+    overflow: hidden; 
+    
+}
+
+.home img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home p {
+    position: absolute;
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 40px; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+    text-align: center; 
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 10px 20px; 
+    border-radius: 10px; 
+}
+
+.quemsomos-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 50px; 
+    gap: 30px; 
+    background-color: #D9A47F;
+    color: #4A2C21;
+    
+}
+
+.quemsomos {
+    flex: 1; 
+    text-align: left; 
+    max-width: 50%;
+    padding-bottom: 100px;
+    
+}
+
+.quemsomos h1 {
+    font-size: 36px;
+    color: #8B4513; 
+}
+
+.quemsomos p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.quemsomos-img {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+}
+
+.quemsomos-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.produtos-container {
+    justify-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.produtos h1{
+    margin-bottom: 50px;
+    color: #8B4513;
+}
+
+.card {
+    margin: 25px;
+    border-radius: 15px !important;
+    overflow: hidden !important;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: #F8E1C4 !important;
+    color: #4A2C21 !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    background-color: #E3C1A1 !important;
+
+}
+
+.estrutura{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.estrutura h1{
+    margin-bottom: 50px;
+}
+
+.estrutura-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 50px ;
+    background-color: #c48d67;
+}
+
+.carousel {
+    width: 100%; 
+    max-width: 600px; 
+    max-height: 600px;
+    margin: auto;
+}
+
+.carousel-inner img {
+    border-radius: 10px;
+}
+
+.carousel-inner {
+    width: 100%; 
+    height: 600px; 
+}
+
+.footer {
+    background-color: #8C4A32;
+    color: #FAF3E0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .social-icons {
+    margin-top: 10px;
+}
+
+.footer .social-icons a img {
+    width: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.footer .social-icons a img:hover {
+    transform: scale(1.2);
+}
