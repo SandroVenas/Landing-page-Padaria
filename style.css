@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #FAF3E0 !important;
     color: #4A2C21;
     padding-top: 70px;
@@ -9,13 +9,12 @@ html {
 }
 
 .navbar.fixed-top {
-    background-color: #DED4BB !important; /* Defina a cor desejada */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
-    z-index: 1000; /* Garante que a navbar fique sempre por cima do conteúdo */
+    background-color: #DED4BB !important;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000; 
 }
 
-
-.nav-link{
+.nav-link {
     font-size: 20px !important;
     padding-left: 10px !important;
     color: #8a7a4e !important;
@@ -103,7 +102,7 @@ html {
     text-align: center;
 }
 
-.produtos h1{
+.produtos h1 {
     margin-bottom: 50px;
     color: #8B4513;
 }
@@ -125,13 +124,13 @@ html {
 
 }
 
-.estrutura{
+.estrutura {
     margin-top: 50px;
     text-align: center;
     margin-bottom: 50px;
 }
 
-.estrutura h1{
+.estrutura h1 {
     margin-bottom: 50px;
 }
 
